@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp",
+        "random": "cpp",
+        "fstream": "cpp",
+        "streambuf": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "iostream": "cpp"
+        
+    }
+}
