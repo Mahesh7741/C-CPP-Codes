@@ -1,6 +1,6 @@
 // #include<iostream>
 // #include <map> 
-
+// using namespace std;
 // int main(){
 //     int size;
 //     cout<<"Enter Array Size : "<<endl;
@@ -14,13 +14,15 @@
 //     for(int i=0;i<size;i++){
 //         mpp[arr[i]]++;
 //     }
-    // for(int i=0;i<size;i++){
-    //     cout<<arr[i]<<"--->"<<mpp[arr[i]]<<endl;
-    // }
+//     for(int i=0;i<size;i++){
+//         cout<<arr[i]<<"--->"<<mpp[arr[i]]<<endl;
+//     }
 //     for(auto it:mpp){
 //         cout<<it.first<<"-->"<<it.second<<endl; 
 //     }
 // }
+
+
 #include <iostream>
 using namespace std;
 const int MAX_SIZE = 100; 
