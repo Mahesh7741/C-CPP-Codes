@@ -26,7 +26,6 @@
 #include <iostream>
 using namespace std;
 const int MAX_SIZE = 100; 
-
 void FindFreqOfElem(int arr[], int size) {
     int count[MAX_SIZE] = {0}; 
     for (int i = 0; i < size; ++i) {
@@ -38,22 +37,16 @@ void FindFreqOfElem(int arr[], int size) {
         }
     }
 }
-
 int main() {
     int size;
-
     cout << "Enter the size of the array: ";
     cin >> size;
-
     int arr[size];
-
     cout << "Enter the elements of the array: ";
     for (int i = 0; i < size; ++i) {
         cin >> arr[i];
     }
-
     cout << "Duplicates in the array with counts are:\n";
     FindFreqOfElem(arr, size);
-
     return 0;
 }
