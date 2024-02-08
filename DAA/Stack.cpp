@@ -50,10 +50,8 @@ int main() {
     stack.push(1);
     stack.push(2);
     stack.push(3);
-
     cout << "Top element: " << stack.peek() << endl;
     cout << "Pop: " << stack.pop() << endl;
     cout << "Top element: " << stack.peek() << endl;
-
     return 0;
 }
