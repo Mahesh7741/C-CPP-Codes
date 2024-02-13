@@ -24,14 +24,19 @@ int main(){
 
     //Right shift (>> K)
 
-    unsigned int num2 =128;
-    bitset<8> bt1 = num2;
-    cout<<bt1<<endl;
+    // unsigned int num2 =128;
+    // bitset<8> bt1 = num2;
+    // cout<<bt1<<endl;
 
-    bitset<8>bt2= num2>>1;
-    cout<<bt2<<endl;
+    // bitset<8>bt2= num2>>1;
+    // cout<<bt2<<endl;
 
-    bitset<8>bt3=num2>>2;
-    cout<<bt3<<endl;
+    // bitset<8>bt3=num2>>2;
+    // cout<<bt3<<endl;
+
+    int num=-1;
+    bitset<8>bt4= num<<1;
+    cout<<bt4<<endl;
+    cout<<(num<<1)<<endl;
     return 0;
 }

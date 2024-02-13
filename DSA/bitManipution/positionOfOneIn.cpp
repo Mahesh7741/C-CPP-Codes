@@ -16,7 +16,7 @@ int positionOfOneInbit(int num){
 }
 
 int main(){
-    int num=8;
+    int num=12;
     int result=positionOfOneInbit(num);
     cout<<result<<endl;
 
