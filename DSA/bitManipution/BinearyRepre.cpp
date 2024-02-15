@@ -24,12 +24,28 @@ using namespace std;
 
 //Method 2: Recursive 
 
+// void bin(unsigned n){
+//     if(n>0){
+//         bin(n/2);
+//     }
+//     cout<<n%2;
+// }
+
+// int main(){
+//     bin(7);
+// }
+
+//Method 3: Recursive using bitwise operator
+
 void bin(unsigned n){
-    if(n>0){
-        bin(n/2);
+    if(n>1){
+        bin(n>>1);
     }
-    cout<<n%2;
+
+    cout<<(n&1);
+
 }
+
 
 int main(){
     bin(7);
