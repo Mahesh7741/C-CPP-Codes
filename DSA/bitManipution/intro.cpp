@@ -34,9 +34,11 @@ int main(){
     // bitset<8>bt3=num2>>2;
     // cout<<bt3<<endl;
 
-    int num=-1;
-    bitset<8>bt4= num<<1;
-    cout<<bt4<<endl;
-    cout<<(num<<1)<<endl;
+    // int num=-1;
+    // bitset<8>bt4= num<<1;
+    // cout<<bt4<<endl;
+    // cout<<(num<<1)<<endl;
+    int num=2;
+    cout<<(num&(1<<1))<<endl;    
     return 0;
 }
