@@ -37,12 +37,23 @@ using namespace std;
 
 //Method 3: Recursive using bitwise operator
 
-void bin(unsigned n){
-    if(n>1){
-        bin(n>>1);
-    }
-    cout<<(n&1);
+// void bin(unsigned n){
+//     if(n>1){
+//         bin(n>>1);
+//     }
+//     cout<<(n&1);
 
+// }
+
+//Best Representation of binary representation
+//time complexity 0(1) and space complexity is no
+
+void bin(int num){
+    for(int i=31;i>=0;i--){
+        int bt=((num>>i)&1);
+        cout<<bt;
+    }
+    cout<<endl;
 }
 
 int main(){
