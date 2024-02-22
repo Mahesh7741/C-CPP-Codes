@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#define INT_BIT 8
+
 int main(){
     // int i=4, j=5;
     // int result=i&j;  // result 4
@@ -38,7 +40,17 @@ int main(){
     // bitset<8>bt4= num<<1;
     // cout<<bt4<<endl;
     // cout<<(num<<1)<<endl;
-    int num=2;
-    cout<<(num&(1<<1))<<endl;    
+    // int num=2;
+    // cout<<(num&(1<<1))<<endl;    
+    // int n=8;
+    // cout<<(n-(n & (-n)))<<endl;
+    int n=128;
+    int d=2;
+    
+    cout<<(n<<d)<<endl;
+    cout<<(n>>(INT_BIT-d))<<endl;
+
+    cout<<((n<<d)|(n>>(INT_BIT-d)))<<endl;
+
     return 0;
 }
