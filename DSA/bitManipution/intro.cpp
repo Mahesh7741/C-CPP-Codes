@@ -44,13 +44,16 @@ int main(){
     // cout<<(num&(1<<1))<<endl;    
     // int n=8;
     // cout<<(n-(n & (-n)))<<endl;
-    int n=128;
-    int d=2;
+    // int n=128;
+    // int d=2;
     
-    cout<<(n<<d)<<endl;
-    cout<<(n>>(INT_BIT-d))<<endl;
+    // cout<<(n<<d)<<endl;
+    // cout<<(n>>(INT_BIT-d))<<endl;
 
-    cout<<((n<<d)|(n>>(INT_BIT-d)))<<endl;
+    // cout<<((n<<d)|(n>>(INT_BIT-d)))<<endl;
+
+    int num=2;
+    cout<<(!(num&(num-1)))<<endl;
 
     return 0;
 }
