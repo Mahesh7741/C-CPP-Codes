@@ -52,8 +52,11 @@ int main(){
 
     // cout<<((n<<d)|(n>>(INT_BIT-d)))<<endl;
 
-    int num=2;
-    cout<<(!(num&(num-1)))<<endl;
+    // int num=2;
+    // cout<<(!(num&(num-1)))<<endl;
+
+    int num=5;
+    cout<<(num&(1<<2))<<endl;
 
     return 0;
 }
