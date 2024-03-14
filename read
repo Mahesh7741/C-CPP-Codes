@@ -1,0 +1,10 @@
+how to run cpp code on windows
+
+// command line for windows and  linux 
+
+step 1:
+g++ <file_name.cpp> -o <file_name>
+step 2:
+./<file_name>
+
+
