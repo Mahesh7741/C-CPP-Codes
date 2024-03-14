@@ -55,8 +55,15 @@ int main(){
     // int num=2;
     // cout<<(!(num&(num-1)))<<endl;
 
-    int num=5;
-    cout<<(num&(1<<2))<<endl;
+    // int num=5;
+    // cout<<(num&(1<<2))<<endl;
 
+    int num6=28;
+    cout<<((num6>>0)&((1<<2)-1))<<endl;
+    cout<<(num6>>0)<<endl;
+    cout<<((1<<2)-1)<<endl;
+    cout<<((num6>>3)&((1<<2)-1))<<endl;
+    cout<<(num6>>3)<<endl;
+    cout<<((1<<2)-1)<<endl;
     return 0;
 }
